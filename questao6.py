@@ -9,9 +9,13 @@ d = num1 / num2
 
 if operacao == "s":
     print(s)
-    if s > 0 and s % 2 == 0:
-        print(f'{s} é positivo e par')
+    if s > 0:
+        print(f'{s} é positivo')
     else:
         print(f"{s} é negativo")
+    if s % 2 == 0:
+        print(f"{s} é número par")
+    else:
+        print(f"{s} é número impar")
 
 
